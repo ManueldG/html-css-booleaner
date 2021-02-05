@@ -1,21 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   height: 100px;
-  background-size: 50%;
+  background-size: 30%;
   background-color: #4ea0ff;
   background-image: url("../img/pattern.png");
   background-attachment: fixed;
 }
 
+.descrizione {
+  color: #828282;
+}
+
+.descrizione h5 {
+  font-size: 80%;
+  margin-bottom: 1.5%;
+}
+
+main {
+  margin: auto;
+  padding: 1% 10%;
+}
+
 header img {
   position: relative;
   left: 10%;
-  top: 60%;
-  height: 30%;
+  top: 40%;
+  height: 50%;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h5 {
+  color: #707070;
+  font-size: 70%;
+}
+
+p {
+  margin: 1% 0% 2% 0%;
+}
+
+table {
+  border: 0;
+  margin-top: 3%;
+}
+
+th {
+  border: 0;
+}
+
+tr {
+  border: 0;
 }
 
 thead {
   background-color: #20a9e5;
   color: white;
+}
+
+ul {
+  list-style-position: inside;
 }
 
 tr.evidenziato {
@@ -24,4 +74,27 @@ tr.evidenziato {
 
 .evidenziatore {
   background-color: #ffff00;
+}
+
+footer {
+  color: #808080;
+  position: relative;
+}
+.watermark {
+}
+
+.watermark img {
+}
+.watermark div {
+  position: absolute;
+}
+
+.watermark2 {
+  position: relative;
+}
+
+.watermark2 img {
+}
+.watermark2 div {
+  position: absolute;
 }
