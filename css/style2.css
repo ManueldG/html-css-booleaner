@@ -24,6 +24,7 @@ header {
 }
 
 h5.trafiletto {
+  color: #a4d2dd;
   text-align: center;
   width: 48%;
   display: inline-block;
@@ -95,7 +96,7 @@ tr.evidenziato {
 
 /*#####FOOTER######*/
 footer {
-  color: #808080;
+  color:     #550505;
   position: relative;
 }
 .watermark {
