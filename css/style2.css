@@ -13,16 +13,25 @@ header {
 }
 
 .descrizione {
+  text-align: center;
   color: #828282;
 }
 
 .descrizione h5 {
+  display: inline-block;
   font-size: 80%;
   margin-bottom: 1.5%;
 }
 
+h5.trafiletto {
+  text-align: center;
+  width: 48%;
+  display: inline-block;
+}
+
 main,
 footer {
+  background-image: linear-gradient(#4ea0ff, #db455b, #4ea0ff);
   margin: auto;
   padding: 1% 10%;
 }
@@ -44,6 +53,7 @@ ul {
 }
 
 h1 {
+  text-align: center;
   font-size: 3vw;
 }
 
@@ -74,12 +84,12 @@ p {
 }
 
 thead {
-  background-color: #20a9e5;
+  background-color: rgba(32, 169, 229, 0.8)
   color: white;
 }
 
 tr.evidenziato {
-  background-color: #b1e5f2;
+  background-color: rgba(177, 229, 242,0.4);
 }
 /*################*/
 
@@ -95,7 +105,6 @@ footer {
   width: 20%;
 }
 .watermark div {
-  background-image: "img/monitor.jpg";
   font-weight: 600;
   padding: 1%;
   color: white;
