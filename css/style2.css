@@ -95,20 +95,9 @@ footer {
   width: 20%;
 }
 .watermark div {
+  background-image: "img/monitor.jpg";
   font-weight: 600;
   padding: 1%;
   color: white;
   position: absolute;
 }
-
-.watermark2 {
-  color: white;
-  position: relative;
-}
-/*
-.watermark2 img {
-  width: 20%;
-}
-.watermark2 div {
-  position: absolute;
-}*/
