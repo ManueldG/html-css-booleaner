@@ -21,7 +21,8 @@ header {
   margin-bottom: 1.5%;
 }
 
-main {
+main,
+footer {
   margin: auto;
   padding: 1% 10%;
 }
@@ -31,6 +32,15 @@ header img {
   left: 10%;
   top: 40%;
   height: 50%;
+}
+
+ul {
+  list-style-position: inside;
+  margin: 2% 0;
+}
+
+.evidenziatore {
+  background-color: #ffff00;
 }
 
 h1 {
@@ -45,11 +55,14 @@ h5 {
 p {
   margin: 1% 0% 2% 0%;
 }
-
+/*########TABLE#######*/
+.tabella {
+  border-spacing: 0px;
+}
 .tabella td,
 .tabella th {
-  border: 0;
-  margin-top: 3%;
+  border: none;
+  /*margin-top: 3%;*/
 }
 
 thead {
@@ -57,18 +70,12 @@ thead {
   color: white;
 }
 
-ul {
-  list-style-position: inside;
-}
-
 tr.evidenziato {
   background-color: #b1e5f2;
 }
+/*################*/
 
-.evidenziatore {
-  background-color: #ffff00;
-}
-
+/*#####FOOTER######*/
 footer {
   color: #808080;
   position: relative;
