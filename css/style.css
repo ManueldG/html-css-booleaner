@@ -59,8 +59,16 @@ p {
 .tabella {
   border-spacing: 0px;
 }
-.tabella td,
 .tabella th {
+  width: 20%;
+  text-align: left;
+}
+
+.tabella #testo {
+  width: 50%;
+}
+
+.tabella td {
   border: none;
   /*margin-top: 3%;*/
 }
@@ -84,17 +92,23 @@ footer {
 }
 
 .watermark img {
+  width: 20%;
 }
 .watermark div {
+  font-weight: 600;
+  padding: 1%;
+  color: white;
   position: absolute;
 }
 
 .watermark2 {
+  color: white;
   position: relative;
 }
-
+/*
 .watermark2 img {
+  width: 20%;
 }
 .watermark2 div {
   position: absolute;
-}
+}*/
