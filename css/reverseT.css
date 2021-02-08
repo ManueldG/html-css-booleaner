@@ -1,20 +1,22 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0;  
+  padding: 0;     /* eliminare spazi e impostare dimensioni reali*/
   box-sizing: border-box;
 }
 
 header {
+  content: icon;
   height: 100px;
   background-size: 30%;
   background-color: #072b55;
-  background-image: url("http://via.placeholder.com/700x350/072b55/000000/?text=PlaceHolder");
+  background-image: url("http://via.placeholder.com/700x350/072b55/000000/?text=PlaceHolder"); /* prova PlaceHolder*/
   background-attachment: fixed;
   background-position:bottom;
+}
 
 .descrizione {
   margin-top: 2%;
-  text-align: center;
+  text-align: center; /* */
   color: #828282;
 }
 
@@ -38,6 +40,7 @@ footer {
 }
 
 main {
+  font-family: 'Fredericka the Great', cursive;
   background-image: linear-gradient(#072b55, #970c21);
   }
 
