@@ -10,9 +10,11 @@ header {
   background-color: #072b55;
   background-image: url("http://via.placeholder.com/700x350/072b55/000000/?text=PlaceHolder");
   background-attachment: fixed;
+  background-position:bottom;
 }
 
 .descrizione {
+  margin-top: 2%;
   text-align: center;
   color: #828282;
 }
@@ -49,7 +51,7 @@ main {
 
 header img {
   position: relative;
-  left: 10%;
+  left: 41%;
   top: 40%;
   height: 50%;
 }
