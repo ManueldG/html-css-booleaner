@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  background-size: 30%;
+  background-color: #072b55;
+  background-image: url("https://via.placeholder.com/700x350.png?text=PlaceHolders");
+  background-attachment: fixed;
+}
+
+.descrizione {
+  text-align: center;
+  color: #828282;
+}
+
+.descrizione h5 {
+  display: inline-block;
+  font-size: 80%;
+  margin-bottom: 1.5%;
+}
+
+h5.trafiletto {
+  color: #a4d2dd;
+  text-align: center;
+  width: 48%;
+  display: inline-block;
+}
+
+main,
+footer {
+  background-image: linear-gradient(#4ea0ff, #db455b, #4ea0ff);
+  margin: auto;
+  padding: 1% 10%;
+}
+
+header img {
+  position: relative;
+  left: 10%;
+  top: 40%;
+  height: 50%;
+}
+
+ul {
+  list-style-position: inside;
+  margin: 2% 0;
+}
+
+.evidenziatore {
+  background-color: #ffff00;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3vw;
+}
+
+h5 {
+  color: #707070;
+  font-size: 70%;
+}
+
+p {
+  margin: 1% 0% 2% 0%;
+}
+/*########TABLE#######*/
+.tabella {
+  border-spacing: 0px;
+}
+.tabella th {
+  width: 20%;
+  text-align: left;
+}
+
+.tabella #testo {
+  width: 50%;
+}
+
+.tabella td {
+  border: none;
+  /*margin-top: 3%;*/
+}
+
+thead {
+  background-color: rgba(32, 169, 229, 0.8)
+  color: white;
+}
+
+tr.evidenziato {
+  background-color: rgba(177, 229, 242,0.4);
+}
+/*################*/
+
+/*#####FOOTER######*/
+footer {
+  color:     #550505;
+  position: relative;
+}
+.watermark {
+}
+
+.watermark img {
+  width: 20%;
+}
+.watermark div {
+  font-weight: 600;
+  padding: 1%;
+  color: white;
+  position: absolute;
+}
